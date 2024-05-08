@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed May 08 00:16:43 WEST 2024","Wed May 08 00:16:51 WEST 2024","8574","","test_browsers","","","","test_open_uol[chrome]",""
+"passed","Wed May 08 00:16:28 WEST 2024","Wed May 08 00:16:34 WEST 2024","6033","","test_browsers","","","","test_open_google[chrome]",""
+"passed","Wed May 08 00:16:35 WEST 2024","Wed May 08 00:16:42 WEST 2024","6386","","test_browsers","","","","test_open_google[firefox]",""
+"passed","Wed May 08 00:16:53 WEST 2024","Wed May 08 00:17:00 WEST 2024","6956","","test_browsers","","","","test_open_uol[firefox]",""
+"broken","Wed May 08 00:16:42 WEST 2024","Wed May 08 00:16:42 WEST 2024","0","","test_browsers","","","","test_open_google[edge]",""
+"broken","Wed May 08 00:17:00 WEST 2024","Wed May 08 00:17:00 WEST 2024","0","","test_browsers","","","","test_open_uol[edge]",""

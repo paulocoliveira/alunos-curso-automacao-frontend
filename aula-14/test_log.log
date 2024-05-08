@@ -1,0 +1,241 @@
+2024-05-08 01:02:11 [DEBUG] Selenium Manager binary found at: /Users/mindera/github/alunos-curso-automacao-frontend/myenv/lib/python3.9/site-packages/selenium/webdriver/common/macos/selenium-manager (selenium_manager.py:90)
+2024-05-08 01:02:11 [DEBUG] Executing process: /Users/mindera/github/alunos-curso-automacao-frontend/myenv/lib/python3.9/site-packages/selenium/webdriver/common/macos/selenium-manager --browser chrome --debug --language-binding python --output json (selenium_manager.py:103)
+2024-05-08 01:02:11 [DEBUG] chromedriver not found in PATH (selenium_manager.py:129)
+2024-05-08 01:02:11 [DEBUG] chrome detected at /Applications/Google Chrome.app/Contents/MacOS/Google Chrome (selenium_manager.py:129)
+2024-05-08 01:02:11 [DEBUG] Running command: /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --version (selenium_manager.py:129)
+2024-05-08 01:02:11 [DEBUG] Output: "Google Chrome 124.0.6367.119 " (selenium_manager.py:129)
+2024-05-08 01:02:11 [DEBUG] Detected browser: chrome 124.0.6367.119 (selenium_manager.py:129)
+2024-05-08 01:02:11 [DEBUG] Required driver: chromedriver 124.0.6367.155 (selenium_manager.py:129)
+2024-05-08 01:02:11 [DEBUG] chromedriver 124.0.6367.155 already in the cache (selenium_manager.py:129)
+2024-05-08 01:02:11 [DEBUG] Driver path: /Users/mindera/.cache/selenium/chromedriver/mac-arm64/124.0.6367.155/chromedriver (selenium_manager.py:129)
+2024-05-08 01:02:11 [DEBUG] Browser path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome (selenium_manager.py:129)
+2024-05-08 01:02:11 [DEBUG] Started executable: `/Users/mindera/.cache/selenium/chromedriver/mac-arm64/124.0.6367.155/chromedriver` in a child process with pid: 85957 using 0 to output -3 (service.py:219)
+2024-05-08 01:02:11 [DEBUG] POST http://localhost:62173/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'goog:loggingPrefs': {'browser': 'ALL', 'driver': 'ALL'}, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', 'args': []}}}} (remote_connection.py:301)
+2024-05-08 01:02:11 [DEBUG] Starting new HTTP connection (1): localhost:62173 (connectionpool.py:244)
+2024-05-08 01:02:12 [DEBUG] http://localhost:62173 "POST /session HTTP/1.1" 200 0 (connectionpool.py:549)
+2024-05-08 01:02:12 [DEBUG] Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"124.0.6367.119","chrome":{"chromedriverVersion":"124.0.6367.155 (df4f029328b2d50a2a4c02c8952b75245983a0ed-refs/branch-heads/6367@{#1097})","userDataDir":"/var/folders/jq/m3gs6v513_125_vxy4l01flh0000gn/T/.org.chromium.Chromium.cl5cmt"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:62184"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"mac","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"702f68d6051c0aa3b18e6eef4c28e290"}} | headers=HTTPHeaderDict({'Content-Length': '892', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'}) (remote_connection.py:330)
+2024-05-08 01:02:12 [DEBUG] Finished Request (remote_connection.py:357)
+2024-05-08 01:02:12 [DEBUG] POST http://localhost:62173/session/702f68d6051c0aa3b18e6eef4c28e290/window/maximize {} (remote_connection.py:301)
+2024-05-08 01:02:12 [DEBUG] http://localhost:62173 "POST /session/702f68d6051c0aa3b18e6eef4c28e290/window/maximize HTTP/1.1" 200 0 (connectionpool.py:549)
+2024-05-08 01:02:12 [DEBUG] Remote response: status=200 | data={"value":{"height":1415,"width":2560,"x":1512,"y":25}} | headers=HTTPHeaderDict({'Content-Length': '54', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'}) (remote_connection.py:330)
+2024-05-08 01:02:12 [DEBUG] Finished Request (remote_connection.py:357)
+2024-05-08 01:02:12 [DEBUG] POST http://localhost:62173/session/702f68d6051c0aa3b18e6eef4c28e290/timeouts {'implicit': 10000} (remote_connection.py:301)
+2024-05-08 01:02:12 [DEBUG] http://localhost:62173 "POST /session/702f68d6051c0aa3b18e6eef4c28e290/timeouts HTTP/1.1" 200 0 (connectionpool.py:549)
+2024-05-08 01:02:12 [DEBUG] Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'}) (remote_connection.py:330)
+2024-05-08 01:02:12 [DEBUG] Finished Request (remote_connection.py:357)
+2024-05-08 01:02:12 [DEBUG] POST http://localhost:62173/session/702f68d6051c0aa3b18e6eef4c28e290/url {'url': 'https://paulocoliveira.github.io/mypages/plugins/index.html'} (remote_connection.py:301)
+2024-05-08 01:02:13 [DEBUG] http://localhost:62173 "POST /session/702f68d6051c0aa3b18e6eef4c28e290/url HTTP/1.1" 200 0 (connectionpool.py:549)
+2024-05-08 01:02:13 [DEBUG] Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'}) (remote_connection.py:330)
+2024-05-08 01:02:13 [DEBUG] Finished Request (remote_connection.py:357)
+2024-05-08 01:02:13 [DEBUG] POST http://localhost:62173/session/702f68d6051c0aa3b18e6eef4c28e290/element {'using': 'xpath', 'value': "//button[text()='DateTime']"} (remote_connection.py:301)
+2024-05-08 01:02:13 [DEBUG] http://localhost:62173 "POST /session/702f68d6051c0aa3b18e6eef4c28e290/element HTTP/1.1" 200 0 (connectionpool.py:549)
+2024-05-08 01:02:13 [DEBUG] Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.3BA8392D791288A7D9E5C455DAE7BDD7.d.AE6FBE136CAAA9B4334E85EC06997071.e.2"}} | headers=HTTPHeaderDict({'Content-Length': '125', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'}) (remote_connection.py:330)
+2024-05-08 01:02:13 [DEBUG] Finished Request (remote_connection.py:357)
+2024-05-08 01:02:13 [DEBUG] POST http://localhost:62173/session/702f68d6051c0aa3b18e6eef4c28e290/element/f.3BA8392D791288A7D9E5C455DAE7BDD7.d.AE6FBE136CAAA9B4334E85EC06997071.e.2/click {} (remote_connection.py:301)
+2024-05-08 01:02:13 [DEBUG] http://localhost:62173 "POST /session/702f68d6051c0aa3b18e6eef4c28e290/element/f.3BA8392D791288A7D9E5C455DAE7BDD7.d.AE6FBE136CAAA9B4334E85EC06997071.e.2/click HTTP/1.1" 200 0 (connectionpool.py:549)
+2024-05-08 01:02:13 [DEBUG] Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'}) (remote_connection.py:330)
+2024-05-08 01:02:13 [DEBUG] Finished Request (remote_connection.py:357)
+2024-05-08 01:02:13 [DEBUG] POST http://localhost:62173/session/702f68d6051c0aa3b18e6eef4c28e290/element {'using': 'css selector', 'value': '[id="current_time"]'} (remote_connection.py:301)
+2024-05-08 01:02:13 [DEBUG] http://localhost:62173 "POST /session/702f68d6051c0aa3b18e6eef4c28e290/element HTTP/1.1" 200 0 (connectionpool.py:549)
+2024-05-08 01:02:13 [DEBUG] Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.3BA8392D791288A7D9E5C455DAE7BDD7.d.C9AB87BA0F318FFEB5903A75124F9C1C.e.6"}} | headers=HTTPHeaderDict({'Content-Length': '125', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'}) (remote_connection.py:330)
+2024-05-08 01:02:13 [DEBUG] Finished Request (remote_connection.py:357)
+2024-05-08 01:02:13 [DEBUG] POST http://localhost:62173/session/702f68d6051c0aa3b18e6eef4c28e290/element/f.3BA8392D791288A7D9E5C455DAE7BDD7.d.C9AB87BA0F318FFEB5903A75124F9C1C.e.6/value {'text': '2024-05-08 01:02:13.208320', 'value': ['2', '0', '2', '4', '-', '0', '5', '-', '0', '8', ' ', '0', '1', ':', '0', '2', ':', '1', '3', '.', '2', '0', '8', '3', '2', '0']} (remote_connection.py:301)
+2024-05-08 01:02:13 [DEBUG] http://localhost:62173 "POST /session/702f68d6051c0aa3b18e6eef4c28e290/element/f.3BA8392D791288A7D9E5C455DAE7BDD7.d.C9AB87BA0F318FFEB5903A75124F9C1C.e.6/value HTTP/1.1" 200 0 (connectionpool.py:549)
+2024-05-08 01:02:13 [DEBUG] Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'}) (remote_connection.py:330)
+2024-05-08 01:02:13 [DEBUG] Finished Request (remote_connection.py:357)
+2024-05-08 01:02:13 [DEBUG] POST http://localhost:62173/session/702f68d6051c0aa3b18e6eef4c28e290/element {'using': 'css selector', 'value': '[id="formatted_date1"]'} (remote_connection.py:301)
+2024-05-08 01:02:13 [DEBUG] http://localhost:62173 "POST /session/702f68d6051c0aa3b18e6eef4c28e290/element HTTP/1.1" 200 0 (connectionpool.py:549)
+2024-05-08 01:02:13 [DEBUG] Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.3BA8392D791288A7D9E5C455DAE7BDD7.d.C9AB87BA0F318FFEB5903A75124F9C1C.e.7"}} | headers=HTTPHeaderDict({'Content-Length': '125', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'}) (remote_connection.py:330)
+2024-05-08 01:02:13 [DEBUG] Finished Request (remote_connection.py:357)
+2024-05-08 01:02:13 [DEBUG] POST http://localhost:62173/session/702f68d6051c0aa3b18e6eef4c28e290/element/f.3BA8392D791288A7D9E5C455DAE7BDD7.d.C9AB87BA0F318FFEB5903A75124F9C1C.e.7/value {'text': '08-05-24', 'value': ['0', '8', '-', '0', '5', '-', '2', '4']} (remote_connection.py:301)
+2024-05-08 01:02:13 [DEBUG] http://localhost:62173 "POST /session/702f68d6051c0aa3b18e6eef4c28e290/element/f.3BA8392D791288A7D9E5C455DAE7BDD7.d.C9AB87BA0F318FFEB5903A75124F9C1C.e.7/value HTTP/1.1" 200 0 (connectionpool.py:549)
+2024-05-08 01:02:13 [DEBUG] Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'}) (remote_connection.py:330)
+2024-05-08 01:02:13 [DEBUG] Finished Request (remote_connection.py:357)
+2024-05-08 01:02:13 [DEBUG] POST http://localhost:62173/session/702f68d6051c0aa3b18e6eef4c28e290/element {'using': 'css selector', 'value': '[id="formatted_date2"]'} (remote_connection.py:301)
+2024-05-08 01:02:13 [DEBUG] http://localhost:62173 "POST /session/702f68d6051c0aa3b18e6eef4c28e290/element HTTP/1.1" 200 0 (connectionpool.py:549)
+2024-05-08 01:02:13 [DEBUG] Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.3BA8392D791288A7D9E5C455DAE7BDD7.d.C9AB87BA0F318FFEB5903A75124F9C1C.e.8"}} | headers=HTTPHeaderDict({'Content-Length': '125', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'}) (remote_connection.py:330)
+2024-05-08 01:02:13 [DEBUG] Finished Request (remote_connection.py:357)
+2024-05-08 01:02:13 [DEBUG] POST http://localhost:62173/session/702f68d6051c0aa3b18e6eef4c28e290/element/f.3BA8392D791288A7D9E5C455DAE7BDD7.d.C9AB87BA0F318FFEB5903A75124F9C1C.e.8/value {'text': '2024-05-08 01:02:13', 'value': ['2', '0', '2', '4', '-', '0', '5', '-', '0', '8', ' ', '0', '1', ':', '0', '2', ':', '1', '3']} (remote_connection.py:301)
+2024-05-08 01:02:13 [DEBUG] http://localhost:62173 "POST /session/702f68d6051c0aa3b18e6eef4c28e290/element/f.3BA8392D791288A7D9E5C455DAE7BDD7.d.C9AB87BA0F318FFEB5903A75124F9C1C.e.8/value HTTP/1.1" 200 0 (connectionpool.py:549)
+2024-05-08 01:02:13 [DEBUG] Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'}) (remote_connection.py:330)
+2024-05-08 01:02:13 [DEBUG] Finished Request (remote_connection.py:357)
+2024-05-08 01:02:13 [DEBUG] POST http://localhost:62173/session/702f68d6051c0aa3b18e6eef4c28e290/element {'using': 'css selector', 'value': '[id="date_in_60_days"]'} (remote_connection.py:301)
+2024-05-08 01:02:13 [DEBUG] http://localhost:62173 "POST /session/702f68d6051c0aa3b18e6eef4c28e290/element HTTP/1.1" 200 0 (connectionpool.py:549)
+2024-05-08 01:02:13 [DEBUG] Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.3BA8392D791288A7D9E5C455DAE7BDD7.d.C9AB87BA0F318FFEB5903A75124F9C1C.e.9"}} | headers=HTTPHeaderDict({'Content-Length': '125', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'}) (remote_connection.py:330)
+2024-05-08 01:02:13 [DEBUG] Finished Request (remote_connection.py:357)
+2024-05-08 01:02:13 [DEBUG] POST http://localhost:62173/session/702f68d6051c0aa3b18e6eef4c28e290/element/f.3BA8392D791288A7D9E5C455DAE7BDD7.d.C9AB87BA0F318FFEB5903A75124F9C1C.e.9/value {'text': '07-07-24', 'value': ['0', '7', '-', '0', '7', '-', '2', '4']} (remote_connection.py:301)
+2024-05-08 01:02:13 [DEBUG] http://localhost:62173 "POST /session/702f68d6051c0aa3b18e6eef4c28e290/element/f.3BA8392D791288A7D9E5C455DAE7BDD7.d.C9AB87BA0F318FFEB5903A75124F9C1C.e.9/value HTTP/1.1" 200 0 (connectionpool.py:549)
+2024-05-08 01:02:13 [DEBUG] Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'}) (remote_connection.py:330)
+2024-05-08 01:02:13 [DEBUG] Finished Request (remote_connection.py:357)
+2024-05-08 01:02:13 [DEBUG] POST http://localhost:62173/session/702f68d6051c0aa3b18e6eef4c28e290/element {'using': 'css selector', 'value': '[id="year_2099"]'} (remote_connection.py:301)
+2024-05-08 01:02:13 [DEBUG] http://localhost:62173 "POST /session/702f68d6051c0aa3b18e6eef4c28e290/element HTTP/1.1" 200 0 (connectionpool.py:549)
+2024-05-08 01:02:13 [DEBUG] Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.3BA8392D791288A7D9E5C455DAE7BDD7.d.C9AB87BA0F318FFEB5903A75124F9C1C.e.10"}} | headers=HTTPHeaderDict({'Content-Length': '126', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'}) (remote_connection.py:330)
+2024-05-08 01:02:13 [DEBUG] Finished Request (remote_connection.py:357)
+2024-05-08 01:02:13 [DEBUG] POST http://localhost:62173/session/702f68d6051c0aa3b18e6eef4c28e290/element/f.3BA8392D791288A7D9E5C455DAE7BDD7.d.C9AB87BA0F318FFEB5903A75124F9C1C.e.10/value {'text': '08-05-2099', 'value': ['0', '8', '-', '0', '5', '-', '2', '0', '9', '9']} (remote_connection.py:301)
+2024-05-08 01:02:13 [DEBUG] http://localhost:62173 "POST /session/702f68d6051c0aa3b18e6eef4c28e290/element/f.3BA8392D791288A7D9E5C455DAE7BDD7.d.C9AB87BA0F318FFEB5903A75124F9C1C.e.10/value HTTP/1.1" 200 0 (connectionpool.py:549)
+2024-05-08 01:02:13 [DEBUG] Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'}) (remote_connection.py:330)
+2024-05-08 01:02:13 [DEBUG] Finished Request (remote_connection.py:357)
+2024-05-08 01:02:13 [DEBUG] POST http://localhost:62173/session/702f68d6051c0aa3b18e6eef4c28e290/element {'using': 'xpath', 'value': "//button[text()='CONCLUIR']"} (remote_connection.py:301)
+2024-05-08 01:02:13 [DEBUG] http://localhost:62173 "POST /session/702f68d6051c0aa3b18e6eef4c28e290/element HTTP/1.1" 200 0 (connectionpool.py:549)
+2024-05-08 01:02:13 [DEBUG] Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.3BA8392D791288A7D9E5C455DAE7BDD7.d.C9AB87BA0F318FFEB5903A75124F9C1C.e.25"}} | headers=HTTPHeaderDict({'Content-Length': '126', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'}) (remote_connection.py:330)
+2024-05-08 01:02:13 [DEBUG] Finished Request (remote_connection.py:357)
+2024-05-08 01:02:13 [DEBUG] POST http://localhost:62173/session/702f68d6051c0aa3b18e6eef4c28e290/element/f.3BA8392D791288A7D9E5C455DAE7BDD7.d.C9AB87BA0F318FFEB5903A75124F9C1C.e.25/click {} (remote_connection.py:301)
+2024-05-08 01:02:13 [DEBUG] http://localhost:62173 "POST /session/702f68d6051c0aa3b18e6eef4c28e290/element/f.3BA8392D791288A7D9E5C455DAE7BDD7.d.C9AB87BA0F318FFEB5903A75124F9C1C.e.25/click HTTP/1.1" 200 0 (connectionpool.py:549)
+2024-05-08 01:02:13 [DEBUG] Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'}) (remote_connection.py:330)
+2024-05-08 01:02:13 [DEBUG] Finished Request (remote_connection.py:357)
+2024-05-08 01:02:16 [DEBUG] POST http://localhost:62173/session/702f68d6051c0aa3b18e6eef4c28e290/se/log {'type': 'browser'} (remote_connection.py:301)
+2024-05-08 01:02:16 [DEBUG] http://localhost:62173 "POST /session/702f68d6051c0aa3b18e6eef4c28e290/se/log HTTP/1.1" 200 0 (connectionpool.py:549)
+2024-05-08 01:02:16 [DEBUG] Remote response: status=200 | data={"value":[{"level":"WARNING","message":"security - Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'.","source":"security","timestamp":1715126533104},{"level":"SEVERE","message":"https://paulocoliveira.github.io/favicon.ico - Failed to load resource: the server responded with a status of 404 ()","source":"network","timestamp":1715126533163},{"level":"WARNING","message":"security - Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'.","source":"security","timestamp":1715126533195}]} | headers=HTTPHeaderDict({'Content-Length': '586', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'}) (remote_connection.py:330)
+2024-05-08 01:02:16 [DEBUG] Finished Request (remote_connection.py:357)
+2024-05-08 01:02:16 [INFO] Log do Navegador: {'level': 'WARNING', 'message': "security - Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'.", 'source': 'security', 'timestamp': 1715126533104} (test_datetime.py:25)
+2024-05-08 01:02:16 [INFO] Log do Navegador: {'level': 'SEVERE', 'message': 'https://paulocoliveira.github.io/favicon.ico - Failed to load resource: the server responded with a status of 404 ()', 'source': 'network', 'timestamp': 1715126533163} (test_datetime.py:25)
+2024-05-08 01:02:16 [INFO] Log do Navegador: {'level': 'WARNING', 'message': "security - Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'.", 'source': 'security', 'timestamp': 1715126533195} (test_datetime.py:25)
+2024-05-08 01:02:16 [DEBUG] DELETE http://localhost:62173/session/702f68d6051c0aa3b18e6eef4c28e290 {} (remote_connection.py:301)
+2024-05-08 01:02:16 [DEBUG] http://localhost:62173 "DELETE /session/702f68d6051c0aa3b18e6eef4c28e290 HTTP/1.1" 200 0 (connectionpool.py:549)
+2024-05-08 01:02:16 [DEBUG] Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'}) (remote_connection.py:330)
+2024-05-08 01:02:16 [DEBUG] Finished Request (remote_connection.py:357)
+2024-05-08 01:02:16 [DEBUG] Selenium Manager binary found at: /Users/mindera/github/alunos-curso-automacao-frontend/myenv/lib/python3.9/site-packages/selenium/webdriver/common/macos/selenium-manager (selenium_manager.py:90)
+2024-05-08 01:02:16 [DEBUG] Executing process: /Users/mindera/github/alunos-curso-automacao-frontend/myenv/lib/python3.9/site-packages/selenium/webdriver/common/macos/selenium-manager --browser chrome --debug --language-binding python --output json (selenium_manager.py:103)
+2024-05-08 01:02:16 [DEBUG] chromedriver not found in PATH (selenium_manager.py:129)
+2024-05-08 01:02:16 [DEBUG] chrome detected at /Applications/Google Chrome.app/Contents/MacOS/Google Chrome (selenium_manager.py:129)
+2024-05-08 01:02:16 [DEBUG] Running command: /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --version (selenium_manager.py:129)
+2024-05-08 01:02:16 [DEBUG] Output: "Google Chrome 124.0.6367.119 " (selenium_manager.py:129)
+2024-05-08 01:02:16 [DEBUG] Detected browser: chrome 124.0.6367.119 (selenium_manager.py:129)
+2024-05-08 01:02:16 [DEBUG] Required driver: chromedriver 124.0.6367.155 (selenium_manager.py:129)
+2024-05-08 01:02:16 [DEBUG] chromedriver 124.0.6367.155 already in the cache (selenium_manager.py:129)
+2024-05-08 01:02:16 [DEBUG] Driver path: /Users/mindera/.cache/selenium/chromedriver/mac-arm64/124.0.6367.155/chromedriver (selenium_manager.py:129)
+2024-05-08 01:02:16 [DEBUG] Browser path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome (selenium_manager.py:129)
+2024-05-08 01:02:16 [DEBUG] Started executable: `/Users/mindera/.cache/selenium/chromedriver/mac-arm64/124.0.6367.155/chromedriver` in a child process with pid: 86004 using 0 to output -3 (service.py:219)
+2024-05-08 01:02:16 [DEBUG] POST http://localhost:62200/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'goog:loggingPrefs': {'browser': 'ALL', 'driver': 'ALL'}, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', 'args': []}}}} (remote_connection.py:301)
+2024-05-08 01:02:16 [DEBUG] Starting new HTTP connection (1): localhost:62200 (connectionpool.py:244)
+2024-05-08 01:02:17 [DEBUG] http://localhost:62200 "POST /session HTTP/1.1" 200 0 (connectionpool.py:549)
+2024-05-08 01:02:17 [DEBUG] Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"124.0.6367.119","chrome":{"chromedriverVersion":"124.0.6367.155 (df4f029328b2d50a2a4c02c8952b75245983a0ed-refs/branch-heads/6367@{#1097})","userDataDir":"/var/folders/jq/m3gs6v513_125_vxy4l01flh0000gn/T/.org.chromium.Chromium.z0Qp1K"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:62205"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"mac","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"334e43ecbe4f88f920b3c3a886c8794e"}} | headers=HTTPHeaderDict({'Content-Length': '892', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'}) (remote_connection.py:330)
+2024-05-08 01:02:17 [DEBUG] Finished Request (remote_connection.py:357)
+2024-05-08 01:02:17 [DEBUG] POST http://localhost:62200/session/334e43ecbe4f88f920b3c3a886c8794e/window/maximize {} (remote_connection.py:301)
+2024-05-08 01:02:17 [DEBUG] http://localhost:62200 "POST /session/334e43ecbe4f88f920b3c3a886c8794e/window/maximize HTTP/1.1" 200 0 (connectionpool.py:549)
+2024-05-08 01:02:17 [DEBUG] Remote response: status=200 | data={"value":{"height":1415,"width":2560,"x":1512,"y":25}} | headers=HTTPHeaderDict({'Content-Length': '54', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'}) (remote_connection.py:330)
+2024-05-08 01:02:17 [DEBUG] Finished Request (remote_connection.py:357)
+2024-05-08 01:02:17 [DEBUG] POST http://localhost:62200/session/334e43ecbe4f88f920b3c3a886c8794e/timeouts {'implicit': 10000} (remote_connection.py:301)
+2024-05-08 01:02:17 [DEBUG] http://localhost:62200 "POST /session/334e43ecbe4f88f920b3c3a886c8794e/timeouts HTTP/1.1" 200 0 (connectionpool.py:549)
+2024-05-08 01:02:17 [DEBUG] Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'}) (remote_connection.py:330)
+2024-05-08 01:02:17 [DEBUG] Finished Request (remote_connection.py:357)
+2024-05-08 01:02:17 [DEBUG] POST http://localhost:62200/session/334e43ecbe4f88f920b3c3a886c8794e/url {'url': 'https://paulocoliveira.github.io/mypages/plugins/index.html'} (remote_connection.py:301)
+2024-05-08 01:02:17 [DEBUG] http://localhost:62200 "POST /session/334e43ecbe4f88f920b3c3a886c8794e/url HTTP/1.1" 200 0 (connectionpool.py:549)
+2024-05-08 01:02:17 [DEBUG] Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'}) (remote_connection.py:330)
+2024-05-08 01:02:17 [DEBUG] Finished Request (remote_connection.py:357)
+2024-05-08 01:02:17 [DEBUG] POST http://localhost:62200/session/334e43ecbe4f88f920b3c3a886c8794e/element {'using': 'xpath', 'value': "//button[text()='DateTime']"} (remote_connection.py:301)
+2024-05-08 01:02:17 [DEBUG] http://localhost:62200 "POST /session/334e43ecbe4f88f920b3c3a886c8794e/element HTTP/1.1" 200 0 (connectionpool.py:549)
+2024-05-08 01:02:17 [DEBUG] Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.5A48B9C0D2F20F40B7C82CF1C7DBA200.d.6F8F8B2B7BC39F8C222E596FB33DFA92.e.2"}} | headers=HTTPHeaderDict({'Content-Length': '125', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'}) (remote_connection.py:330)
+2024-05-08 01:02:17 [DEBUG] Finished Request (remote_connection.py:357)
+2024-05-08 01:02:17 [DEBUG] POST http://localhost:62200/session/334e43ecbe4f88f920b3c3a886c8794e/element/f.5A48B9C0D2F20F40B7C82CF1C7DBA200.d.6F8F8B2B7BC39F8C222E596FB33DFA92.e.2/click {} (remote_connection.py:301)
+2024-05-08 01:02:17 [DEBUG] http://localhost:62200 "POST /session/334e43ecbe4f88f920b3c3a886c8794e/element/f.5A48B9C0D2F20F40B7C82CF1C7DBA200.d.6F8F8B2B7BC39F8C222E596FB33DFA92.e.2/click HTTP/1.1" 200 0 (connectionpool.py:549)
+2024-05-08 01:02:17 [DEBUG] Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'}) (remote_connection.py:330)
+2024-05-08 01:02:17 [DEBUG] Finished Request (remote_connection.py:357)
+2024-05-08 01:02:17 [DEBUG] POST http://localhost:62200/session/334e43ecbe4f88f920b3c3a886c8794e/element {'using': 'css selector', 'value': '[id="current_time"]'} (remote_connection.py:301)
+2024-05-08 01:02:18 [DEBUG] http://localhost:62200 "POST /session/334e43ecbe4f88f920b3c3a886c8794e/element HTTP/1.1" 200 0 (connectionpool.py:549)
+2024-05-08 01:02:18 [DEBUG] Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.5A48B9C0D2F20F40B7C82CF1C7DBA200.d.ADAC0BD6BBCFD137AA257B90567615D6.e.5"}} | headers=HTTPHeaderDict({'Content-Length': '125', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'}) (remote_connection.py:330)
+2024-05-08 01:02:18 [DEBUG] Finished Request (remote_connection.py:357)
+2024-05-08 01:02:18 [DEBUG] POST http://localhost:62200/session/334e43ecbe4f88f920b3c3a886c8794e/element/f.5A48B9C0D2F20F40B7C82CF1C7DBA200.d.ADAC0BD6BBCFD137AA257B90567615D6.e.5/value {'text': '2024-05-08 01:02:17.997427', 'value': ['2', '0', '2', '4', '-', '0', '5', '-', '0', '8', ' ', '0', '1', ':', '0', '2', ':', '1', '7', '.', '9', '9', '7', '4', '2', '7']} (remote_connection.py:301)
+2024-05-08 01:02:18 [DEBUG] http://localhost:62200 "POST /session/334e43ecbe4f88f920b3c3a886c8794e/element/f.5A48B9C0D2F20F40B7C82CF1C7DBA200.d.ADAC0BD6BBCFD137AA257B90567615D6.e.5/value HTTP/1.1" 200 0 (connectionpool.py:549)
+2024-05-08 01:02:18 [DEBUG] Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'}) (remote_connection.py:330)
+2024-05-08 01:02:18 [DEBUG] Finished Request (remote_connection.py:357)
+2024-05-08 01:02:18 [DEBUG] POST http://localhost:62200/session/334e43ecbe4f88f920b3c3a886c8794e/element {'using': 'css selector', 'value': '[id="formatted_date1"]'} (remote_connection.py:301)
+2024-05-08 01:02:18 [DEBUG] http://localhost:62200 "POST /session/334e43ecbe4f88f920b3c3a886c8794e/element HTTP/1.1" 200 0 (connectionpool.py:549)
+2024-05-08 01:02:18 [DEBUG] Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.5A48B9C0D2F20F40B7C82CF1C7DBA200.d.ADAC0BD6BBCFD137AA257B90567615D6.e.6"}} | headers=HTTPHeaderDict({'Content-Length': '125', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'}) (remote_connection.py:330)
+2024-05-08 01:02:18 [DEBUG] Finished Request (remote_connection.py:357)
+2024-05-08 01:02:18 [DEBUG] POST http://localhost:62200/session/334e43ecbe4f88f920b3c3a886c8794e/element/f.5A48B9C0D2F20F40B7C82CF1C7DBA200.d.ADAC0BD6BBCFD137AA257B90567615D6.e.6/value {'text': '08-05-24', 'value': ['0', '8', '-', '0', '5', '-', '2', '4']} (remote_connection.py:301)
+2024-05-08 01:02:18 [DEBUG] http://localhost:62200 "POST /session/334e43ecbe4f88f920b3c3a886c8794e/element/f.5A48B9C0D2F20F40B7C82CF1C7DBA200.d.ADAC0BD6BBCFD137AA257B90567615D6.e.6/value HTTP/1.1" 200 0 (connectionpool.py:549)
+2024-05-08 01:02:18 [DEBUG] Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'}) (remote_connection.py:330)
+2024-05-08 01:02:18 [DEBUG] Finished Request (remote_connection.py:357)
+2024-05-08 01:02:18 [DEBUG] POST http://localhost:62200/session/334e43ecbe4f88f920b3c3a886c8794e/element {'using': 'css selector', 'value': '[id="formatted_date2"]'} (remote_connection.py:301)
+2024-05-08 01:02:18 [DEBUG] http://localhost:62200 "POST /session/334e43ecbe4f88f920b3c3a886c8794e/element HTTP/1.1" 200 0 (connectionpool.py:549)
+2024-05-08 01:02:18 [DEBUG] Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.5A48B9C0D2F20F40B7C82CF1C7DBA200.d.ADAC0BD6BBCFD137AA257B90567615D6.e.7"}} | headers=HTTPHeaderDict({'Content-Length': '125', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'}) (remote_connection.py:330)
+2024-05-08 01:02:18 [DEBUG] Finished Request (remote_connection.py:357)
+2024-05-08 01:02:18 [DEBUG] POST http://localhost:62200/session/334e43ecbe4f88f920b3c3a886c8794e/element/f.5A48B9C0D2F20F40B7C82CF1C7DBA200.d.ADAC0BD6BBCFD137AA257B90567615D6.e.7/value {'text': '2024-05-08 01:02:17', 'value': ['2', '0', '2', '4', '-', '0', '5', '-', '0', '8', ' ', '0', '1', ':', '0', '2', ':', '1', '7']} (remote_connection.py:301)
+2024-05-08 01:02:19 [DEBUG] http://localhost:62200 "POST /session/334e43ecbe4f88f920b3c3a886c8794e/element/f.5A48B9C0D2F20F40B7C82CF1C7DBA200.d.ADAC0BD6BBCFD137AA257B90567615D6.e.7/value HTTP/1.1" 200 0 (connectionpool.py:549)
+2024-05-08 01:02:19 [DEBUG] Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'}) (remote_connection.py:330)
+2024-05-08 01:02:19 [DEBUG] Finished Request (remote_connection.py:357)
+2024-05-08 01:02:19 [DEBUG] POST http://localhost:62200/session/334e43ecbe4f88f920b3c3a886c8794e/element {'using': 'css selector', 'value': '[id="date_in_60_days"]'} (remote_connection.py:301)
+2024-05-08 01:02:19 [DEBUG] http://localhost:62200 "POST /session/334e43ecbe4f88f920b3c3a886c8794e/element HTTP/1.1" 200 0 (connectionpool.py:549)
+2024-05-08 01:02:19 [DEBUG] Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.5A48B9C0D2F20F40B7C82CF1C7DBA200.d.ADAC0BD6BBCFD137AA257B90567615D6.e.8"}} | headers=HTTPHeaderDict({'Content-Length': '125', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'}) (remote_connection.py:330)
+2024-05-08 01:02:19 [DEBUG] Finished Request (remote_connection.py:357)
+2024-05-08 01:02:19 [DEBUG] POST http://localhost:62200/session/334e43ecbe4f88f920b3c3a886c8794e/element/f.5A48B9C0D2F20F40B7C82CF1C7DBA200.d.ADAC0BD6BBCFD137AA257B90567615D6.e.8/value {'text': '07-07-24', 'value': ['0', '7', '-', '0', '7', '-', '2', '4']} (remote_connection.py:301)
+2024-05-08 01:02:19 [DEBUG] http://localhost:62200 "POST /session/334e43ecbe4f88f920b3c3a886c8794e/element/f.5A48B9C0D2F20F40B7C82CF1C7DBA200.d.ADAC0BD6BBCFD137AA257B90567615D6.e.8/value HTTP/1.1" 200 0 (connectionpool.py:549)
+2024-05-08 01:02:19 [DEBUG] Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'}) (remote_connection.py:330)
+2024-05-08 01:02:19 [DEBUG] Finished Request (remote_connection.py:357)
+2024-05-08 01:02:19 [DEBUG] POST http://localhost:62200/session/334e43ecbe4f88f920b3c3a886c8794e/element {'using': 'css selector', 'value': '[id="year_2099"]'} (remote_connection.py:301)
+2024-05-08 01:02:19 [DEBUG] http://localhost:62200 "POST /session/334e43ecbe4f88f920b3c3a886c8794e/element HTTP/1.1" 200 0 (connectionpool.py:549)
+2024-05-08 01:02:19 [DEBUG] Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.5A48B9C0D2F20F40B7C82CF1C7DBA200.d.ADAC0BD6BBCFD137AA257B90567615D6.e.9"}} | headers=HTTPHeaderDict({'Content-Length': '125', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'}) (remote_connection.py:330)
+2024-05-08 01:02:19 [DEBUG] Finished Request (remote_connection.py:357)
+2024-05-08 01:02:19 [DEBUG] POST http://localhost:62200/session/334e43ecbe4f88f920b3c3a886c8794e/element/f.5A48B9C0D2F20F40B7C82CF1C7DBA200.d.ADAC0BD6BBCFD137AA257B90567615D6.e.9/value {'text': '08-05-2099', 'value': ['0', '8', '-', '0', '5', '-', '2', '0', '9', '9']} (remote_connection.py:301)
+2024-05-08 01:02:19 [DEBUG] http://localhost:62200 "POST /session/334e43ecbe4f88f920b3c3a886c8794e/element/f.5A48B9C0D2F20F40B7C82CF1C7DBA200.d.ADAC0BD6BBCFD137AA257B90567615D6.e.9/value HTTP/1.1" 200 0 (connectionpool.py:549)
+2024-05-08 01:02:19 [DEBUG] Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'}) (remote_connection.py:330)
+2024-05-08 01:02:19 [DEBUG] Finished Request (remote_connection.py:357)
+2024-05-08 01:02:19 [DEBUG] POST http://localhost:62200/session/334e43ecbe4f88f920b3c3a886c8794e/element {'using': 'xpath', 'value': "//button[text()='FINALIZAR']"} (remote_connection.py:301)
+2024-05-08 01:02:29 [DEBUG] http://localhost:62200 "POST /session/334e43ecbe4f88f920b3c3a886c8794e/element HTTP/1.1" 404 0 (connectionpool.py:549)
+2024-05-08 01:02:29 [DEBUG] Remote response: status=404 | data={"value":{"error":"no such element","message":"no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[text()='FINALIZAR']\"}\n  (Session info: chrome=124.0.6367.119)","stacktrace":"0   chromedriver                        0x0000000104b26924 chromedriver + 4368676\n1   chromedriver                        0x0000000104b1edb8 chromedriver + 4337080\n2   chromedriver                        0x0000000104742c04 chromedriver + 289796\n3   chromedriver                        0x0000000104784e00 chromedriver + 560640\n4   chromedriver                        0x00000001047bd5ec chromedriver + 792044\n5   chromedriver                        0x0000000104779ab4 chromedriver + 514740\n6   chromedriver                        0x000000010477a50c chromedriver + 517388\n7   chromedriver                        0x0000000104aeae40 chromedriver + 4124224\n8   chromedriver                        0x0000000104aefc30 chromedriver + 4144176\n9   chromedriver                        0x0000000104ad0808 chromedriver + 4016136\n10  chromedriver                        0x0000000104af0560 chromedriver + 4146528\n11  chromedriver                        0x0000000104ac22bc chromedriver + 3957436\n12  chromedriver                        0x0000000104b0fea8 chromedriver + 4275880\n13  chromedriver                        0x0000000104b10024 chromedriver + 4276260\n14  chromedriver                        0x0000000104b1ea18 chromedriver + 4336152\n15  libsystem_pthread.dylib             0x000000019d416f94 _pthread_start + 136\n16  libsystem_pthread.dylib             0x000000019d411d34 thread_start + 8\n"}} | headers=HTTPHeaderDict({'Content-Length': '1616', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'}) (remote_connection.py:330)
+2024-05-08 01:02:29 [DEBUG] Finished Request (remote_connection.py:357)
+2024-05-08 01:02:29 [ERROR] Erro durante o teste: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='FINALIZAR']"}
+  (Session info: chrome=124.0.6367.119); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000104b26924 chromedriver + 4368676
+1   chromedriver                        0x0000000104b1edb8 chromedriver + 4337080
+2   chromedriver                        0x0000000104742c04 chromedriver + 289796
+3   chromedriver                        0x0000000104784e00 chromedriver + 560640
+4   chromedriver                        0x00000001047bd5ec chromedriver + 792044
+5   chromedriver                        0x0000000104779ab4 chromedriver + 514740
+6   chromedriver                        0x000000010477a50c chromedriver + 517388
+7   chromedriver                        0x0000000104aeae40 chromedriver + 4124224
+8   chromedriver                        0x0000000104aefc30 chromedriver + 4144176
+9   chromedriver                        0x0000000104ad0808 chromedriver + 4016136
+10  chromedriver                        0x0000000104af0560 chromedriver + 4146528
+11  chromedriver                        0x0000000104ac22bc chromedriver + 3957436
+12  chromedriver                        0x0000000104b0fea8 chromedriver + 4275880
+13  chromedriver                        0x0000000104b10024 chromedriver + 4276260
+14  chromedriver                        0x0000000104b1ea18 chromedriver + 4336152
+15  libsystem_pthread.dylib             0x000000019d416f94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019d411d34 thread_start + 8
+ (test_datetime.py:34)
+Traceback (most recent call last):
+  File "/Users/mindera/github/alunos-curso-automacao-frontend/aula-14/test_datetime.py", line 32, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/mindera/github/alunos-curso-automacao-frontend/aula-14/test_datetime.py", line 67, in test_datetime_manipulation_2
+    driver.find_element(By.XPATH, "//button[text()='FINALIZAR']").click()
+  File "/Users/mindera/github/alunos-curso-automacao-frontend/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 741, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/Users/mindera/github/alunos-curso-automacao-frontend/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/Users/mindera/github/alunos-curso-automacao-frontend/myenv/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='FINALIZAR']"}
+  (Session info: chrome=124.0.6367.119); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000104b26924 chromedriver + 4368676
+1   chromedriver                        0x0000000104b1edb8 chromedriver + 4337080
+2   chromedriver                        0x0000000104742c04 chromedriver + 289796
+3   chromedriver                        0x0000000104784e00 chromedriver + 560640
+4   chromedriver                        0x00000001047bd5ec chromedriver + 792044
+5   chromedriver                        0x0000000104779ab4 chromedriver + 514740
+6   chromedriver                        0x000000010477a50c chromedriver + 517388
+7   chromedriver                        0x0000000104aeae40 chromedriver + 4124224
+8   chromedriver                        0x0000000104aefc30 chromedriver + 4144176
+9   chromedriver                        0x0000000104ad0808 chromedriver + 4016136
+10  chromedriver                        0x0000000104af0560 chromedriver + 4146528
+11  chromedriver                        0x0000000104ac22bc chromedriver + 3957436
+12  chromedriver                        0x0000000104b0fea8 chromedriver + 4275880
+13  chromedriver                        0x0000000104b10024 chromedriver + 4276260
+14  chromedriver                        0x0000000104b1ea18 chromedriver + 4336152
+15  libsystem_pthread.dylib             0x000000019d416f94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019d411d34 thread_start + 8
+
+2024-05-08 01:02:29 [DEBUG] POST http://localhost:62200/session/334e43ecbe4f88f920b3c3a886c8794e/se/log {'type': 'browser'} (remote_connection.py:301)
+2024-05-08 01:02:29 [DEBUG] http://localhost:62200 "POST /session/334e43ecbe4f88f920b3c3a886c8794e/se/log HTTP/1.1" 200 0 (connectionpool.py:549)
+2024-05-08 01:02:29 [DEBUG] Remote response: status=200 | data={"value":[{"level":"WARNING","message":"security - Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'.","source":"security","timestamp":1715126537876},{"level":"SEVERE","message":"https://paulocoliveira.github.io/favicon.ico - Failed to load resource: the server responded with a status of 404 ()","source":"network","timestamp":1715126537927},{"level":"WARNING","message":"security - Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'.","source":"security","timestamp":1715126537985}]} | headers=HTTPHeaderDict({'Content-Length': '586', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'}) (remote_connection.py:330)
+2024-05-08 01:02:29 [DEBUG] Finished Request (remote_connection.py:357)
+2024-05-08 01:02:29 [INFO] Log do Navegador: {'level': 'WARNING', 'message': "security - Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'.", 'source': 'security', 'timestamp': 1715126537876} (test_datetime.py:25)
+2024-05-08 01:02:29 [INFO] Log do Navegador: {'level': 'SEVERE', 'message': 'https://paulocoliveira.github.io/favicon.ico - Failed to load resource: the server responded with a status of 404 ()', 'source': 'network', 'timestamp': 1715126537927} (test_datetime.py:25)
+2024-05-08 01:02:29 [INFO] Log do Navegador: {'level': 'WARNING', 'message': "security - Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'.", 'source': 'security', 'timestamp': 1715126537985} (test_datetime.py:25)
+2024-05-08 01:02:29 [DEBUG] DELETE http://localhost:62200/session/334e43ecbe4f88f920b3c3a886c8794e {} (remote_connection.py:301)
+2024-05-08 01:02:29 [DEBUG] http://localhost:62200 "DELETE /session/334e43ecbe4f88f920b3c3a886c8794e HTTP/1.1" 200 0 (connectionpool.py:549)
+2024-05-08 01:02:29 [DEBUG] Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'}) (remote_connection.py:330)
+2024-05-08 01:02:29 [DEBUG] Finished Request (remote_connection.py:357)
