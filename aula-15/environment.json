@@ -1,0 +1,9 @@
+[
+    {"platform": "Windows 11", "browser": "Chrome"},
+    {"platform": "Windows 11", "browser": "Firefox"},
+    {"platform": "Windows 11", "browser": "MicrosoftEdge"},
+    {"platform": "macOS Sonoma", "browser": "Chrome"},
+    {"platform": "macOS Sonoma", "browser": "Safari"},
+    {"platform": "Linux", "browser": "Firefox"},
+    {"platform": "macOS Big sur", "browser": "Chrome"}
+]
