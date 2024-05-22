@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/mindera/github/alunos-curso-automacao-frontend/aula-16/csharp/SeleniumTests/SeleniumTests.csproj": {}
+  },
+  "projects": {
+    "/Users/mindera/github/alunos-curso-automacao-frontend/aula-16/csharp/SeleniumTests/SeleniumTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mindera/github/alunos-curso-automacao-frontend/aula-16/csharp/SeleniumTests/SeleniumTests.csproj",
+        "projectName": "SeleniumTests",
+        "projectPath": "/Users/mindera/github/alunos-curso-automacao-frontend/aula-16/csharp/SeleniumTests/SeleniumTests.csproj",
+        "packagesPath": "/Users/mindera/.nuget/packages/",
+        "outputPath": "/Users/mindera/github/alunos-curso-automacao-frontend/aula-16/csharp/SeleniumTests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mindera/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.14.0, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.9.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.21.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[125.0.6422.6000, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

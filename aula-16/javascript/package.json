@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "chromedriver": "^124.0.3",
+    "mocha": "^10.4.0",
+    "selenium-webdriver": "^4.20.0"
+  },
+  "scripts": {
+    "test": "mocha --timeout 10000"
+  }
+}
