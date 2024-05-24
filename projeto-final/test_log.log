@@ -1,0 +1,1 @@
+2024-05-24 08:58:18 [WARNING] The chromedriver version (124.0.6367.201) detected in PATH at /usr/local/bin/chromedriver might not be compatible with the detected chrome version (125.0.6422.77); currently, chromedriver 125.0.6422.78 is recommended for chrome 125.*, so it is advised to delete the driver in PATH and retry (selenium_manager.py:127)
